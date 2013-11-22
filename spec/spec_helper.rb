@@ -5,10 +5,6 @@ require 'rspec/rails'
 require 'rspec/autorun'
 require 'capybara/rspec'
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 729022f9f363d0868ca05916c2e0856c3dc0b2bf
 # Requires supporting ruby files with custom matchers and macros, etc,
 # in spec/support/ and its subdirectories.
 Dir[Rails.root.join("spec/support/**/*.rb")].each { |f| require f }
@@ -32,7 +28,7 @@ RSpec.configure do |config|
   # If you're not using ActiveRecord, or you'd prefer not to run each of your
   # examples within a transaction, remove the following line or assign false
   # instead of true.
-  config.use_transactional_fixtures = true
+  config.use_transactional_fixtures = false
 
   # If true, the base class of anonymous controllers will be inferred
   # automatically. This will be the default behavior in future versions of
