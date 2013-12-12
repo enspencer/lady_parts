@@ -18,3 +18,11 @@
 # end
 
 # Learn more: http://github.com/javan/whenever
+
+every :sunday, :at => '7am' do
+  rake 'movies.rake'
+end
+
+every :sunday, :at => '8am' do
+  command 'heroku run rake db:migrate'
+end

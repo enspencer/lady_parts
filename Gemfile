@@ -54,6 +54,8 @@ ruby "2.0.0"
 gem "twitter-bootstrap-rails"
 gem "less-rails"
 gem 'newrelic_rpm'
+
+# Use whenever for scheduling cron jobs
 gem 'whenever', :require => false
 
 group :test do
